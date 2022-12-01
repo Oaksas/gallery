@@ -1,8 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
-import { Navbar } from './components';
-import './App.css';
+import {
+  AboutUs,
+  Chef,
+  FindUs,
+  Footer,
+  Gallery,
+  Header,
+  Intro,
+  Achievements,
+  SpecialMenu,
+} from "./container";
+import { Navbar } from "./components";
+import "./App.css";
 
 const App = () => (
   <div>
@@ -12,7 +22,7 @@ const App = () => (
     <SpecialMenu />
     <Chef />
     <Intro />
-    <Laurels />
+    <Achievements />
     <Gallery />
     <FindUs />
     <Footer />
